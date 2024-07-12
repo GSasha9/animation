@@ -1,0 +1,80 @@
+* , 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+html{
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+    width: 320px;
+    height: 427px;
+    overflow: hidden;
+    background: #ffeec1;
+}
+
+.banner__text{
+    padding-top: 47.05px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+}
+
+.banner__text-small{
+    font-size: 20.53px;
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.banner__text-big{
+    font-size: 27.92px;
+    font-weight: 800;
+}
+
+.banner__img{
+    position: relative;
+}
+
+.banner__img-item{
+    position: absolute;
+}
+
+.order1{
+    z-index: 1;
+    left: 0px;
+    top: 119px;
+}
+
+.order2{
+    z-index: 2;
+    left: 0px;
+    top: -4px;
+}
+
+.order3{
+    z-index: 3;
+    right: 0px;
+    top: 21px;
+}
+
+.order4{
+    z-index: 4;
+    right: 0px;
+    top: 171px;
+}
+
+
